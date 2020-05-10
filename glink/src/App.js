@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import { Jumbotron, Navbar, NavbarBrand } from "reactstrap";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import MailComponent from "./components";
+import logo from "./images/gmailLogo.ico";
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { canSubmit: false };
+  }
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  disableButton() {
+    this.setState({ canSubmit: false });
+  }
+
+  enableButton() {
+    this.setState({ canSubmit: true });
+  }
+
+  render() {
+    return (
+      <Fragment>
+        <Navbar dark color="primary">
+          <div className="container">
+            <NavbarBrand href="https://gmaillink.github.io/">
+              <img
+                className="homepageLogo"
+                src={logo}
+                alt=""
+                height="30px"
+                width="30px"
+              />
+              Gmail Sharable Link Creator
+            </NavbarBrand>
+          </div>
+        </Navbar>
+
+        <div className="emailLinkGen">
+          <Jumbotron style={{ marginBottom: 0, height: "95vh" }}>
+            <MailComponent />
+          </Jumbotron>
+        </div>
+      </Fragment>
+    );
+  }
 }
-
-export default App;

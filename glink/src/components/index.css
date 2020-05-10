@@ -1,4 +1,14 @@
 .twoComponents {
-    /* display: flex;
-    flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+}
+
+.columnFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.rowFlex {
+  display: flex;
+  flex-direction: row;
 }

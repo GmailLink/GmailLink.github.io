@@ -1,3 +1,28 @@
-/* .temp {
-  align-items: center;
-} */
+.emailPage {
+  padding: 16;
+  margin: "auto";
+  width: "500px";
+}
+
+.left-padding {
+  padding-left: 5px;
+}
+
+.padding-left-lg {
+  padding-left: 15px;
+}
+
+.flexNeed {
+  display: flex;
+}
+.italic {
+  font-style: italic;
+}
+
+.padding-left-10 {
+  padding-left: 10px;
+}
+
+.color-darkgray {
+  color: darkgray;
+}
