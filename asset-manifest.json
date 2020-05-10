@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.95ee6e40.chunk.css",
-    "main.js": "/static/js/main.c21f37b5.chunk.js",
-    "main.js.map": "/static/js/main.c21f37b5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e9c97ce4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e9c97ce4.js.map",
-    "static/css/2.89f067aa.chunk.css": "/static/css/2.89f067aa.chunk.css",
-    "static/js/2.dcdd6b4c.chunk.js": "/static/js/2.dcdd6b4c.chunk.js",
-    "static/js/2.dcdd6b4c.chunk.js.map": "/static/js/2.dcdd6b4c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.50502d5e6314d755191ceb103da9196d.js": "/precache-manifest.50502d5e6314d755191ceb103da9196d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.89f067aa.chunk.css.map": "/static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.95ee6e40.chunk.css.map": "/static/css/main.95ee6e40.chunk.css.map",
-    "static/js/2.dcdd6b4c.chunk.js.LICENSE.txt": "/static/js/2.dcdd6b4c.chunk.js.LICENSE.txt",
-    "static/media/gmailLogo.ico": "/static/media/gmailLogo.82d5fafd.ico"
+    "main.css": "/glink/static/css/main.95ee6e40.chunk.css",
+    "main.js": "/glink/static/js/main.89c99e16.chunk.js",
+    "main.js.map": "/glink/static/js/main.89c99e16.chunk.js.map",
+    "runtime-main.js": "/glink/static/js/runtime-main.c7c44a1e.js",
+    "runtime-main.js.map": "/glink/static/js/runtime-main.c7c44a1e.js.map",
+    "static/css/2.89f067aa.chunk.css": "/glink/static/css/2.89f067aa.chunk.css",
+    "static/js/2.dcdd6b4c.chunk.js": "/glink/static/js/2.dcdd6b4c.chunk.js",
+    "static/js/2.dcdd6b4c.chunk.js.map": "/glink/static/js/2.dcdd6b4c.chunk.js.map",
+    "index.html": "/glink/index.html",
+    "precache-manifest.f3258e2779742e785cae40e5e7ee71c5.js": "/glink/precache-manifest.f3258e2779742e785cae40e5e7ee71c5.js",
+    "service-worker.js": "/glink/service-worker.js",
+    "static/css/2.89f067aa.chunk.css.map": "/glink/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.95ee6e40.chunk.css.map": "/glink/static/css/main.95ee6e40.chunk.css.map",
+    "static/js/2.dcdd6b4c.chunk.js.LICENSE.txt": "/glink/static/js/2.dcdd6b4c.chunk.js.LICENSE.txt",
+    "static/media/gmailLogo.ico": "/glink/static/media/gmailLogo.82d5fafd.ico"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9c97ce4.js",
+    "static/js/runtime-main.c7c44a1e.js",
     "static/css/2.89f067aa.chunk.css",
     "static/js/2.dcdd6b4c.chunk.js",
     "static/css/main.95ee6e40.chunk.css",
-    "static/js/main.c21f37b5.chunk.js"
+    "static/js/main.89c99e16.chunk.js"
   ]
 }
