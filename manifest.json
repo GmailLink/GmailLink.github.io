@@ -1,0 +1,25 @@
+{
+  "short_name": "Gmail Link Sharable",
+  "name": "Gmail Link Sharable Link",
+  "icons": [
+    {
+      "src": "gmailLogo.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "gmailLogo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "gmailLogo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://gmaillink.github.io",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
