@@ -4,6 +4,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import MailComponent from "./components";
 import logo from "./images/gmailLogo.ico";
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
